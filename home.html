@@ -36,37 +36,93 @@
     </head>
     <body>
 
-        <section data-role="page">
+        <section id="home" data-role="page">
             <div class="container">
-
-                <h1>PhoneGap</h1>
-                <div id="deviceready" class="blink">
-                    <p class="event listening">Connecting to Device</p>
-                    <p class="event received">Device is Ready and hydration added</p>
-                </div>
 
 <!--//////////////////////////// FMA //////////////////////////////-->    
         <header id="fmaSection">
+
+            <div id="topNav">
+
+                <a href="#"><img id="navArrow" src="images/navArrow.png" width="100%" alt="Nav Back Arrow" /></a>
+
+                <a href="#"><img id="mobileMenu" src="images/mobileMenu.png" width="100%" alt="Nav Menu" /></a>
+
+            </div>
         
             <div id="fmaPhoto"> 
                 <!--XML-->
+
+                <div id="fmaCaption">
+                    <h1>Event Title</h1>
+                    <h2>FEBRUARY 10 \\ 8pm \\ GREAT HALL</h2>
+                </div>
+            </div>
+
+            <div id="middleNav">
+                <a class="events"><nav><h3>EVENTS</h3></nav></a>
+                <a class="about"><nav><h3>ABOUT</h3></nav></a>
+                <a class="join"><nav><h3>JOIN</h3></nav></a>
+                <a class="contact"><nav><h3>CONTACT</h3></nav></a>
             </div>
             
         </header>
 
 
 <!--//////////////////////////// MAIN //////////////////////////////-->
-        <main>
+        <main id="mainSection">
             <section>
             <div class="container">
 
+    <!--/// EVENT ///////////////-->
+                <div class="eventFeed comedyEvent">
+                    <div class="eventArt"></div>
+                    <h1 class="eventTitle">Event Title</h1>
+                    <h2 class="eventDate"><span class="eventDateIcon"></span>February 10</h2>
+                    <h2 class="eventTime"><span class="eventTimeIcon"></span>8:00 PM</h2>
+                    <h2 class="eventLocation"><span class="eventLocIcon"></span>Great Hall</h2>
+                </div>
+                <div class="clear"></div>
+
+
+    <!--/// EVENT ///////////////-->
+                <div class="eventFeed musicEvent">
+                    <div class="eventArt"></div>
+                    <h1 class="eventTitle">Event Title</h1>
+                    <h2 class="eventDate"><span class="eventDateIcon"></span>February 10</h2>
+                    <h2 class="eventTime"><span class="eventTimeIcon"></span>8:00 PM</h2>
+                    <h2 class="eventLocation"><span class="eventLocIcon"></span>Great Hall</h2>
+                </div>
+                <div class="clear"></div>
+
+
+
+    <!--/// EVENT ///////////////-->
+                <div class="eventFeed filmsEvent">
+                    <div class="eventArt"></div>
+                    <h1 class="eventTitle">Event Title</h1>
+                    <h2 class="eventDate"><span class="eventDateIcon"></span>February 10</h2>
+                    <h2 class="eventTime"><span class="eventTimeIcon"></span>8:00 PM</h2>
+                    <h2 class="eventLocation"><span class="eventLocIcon"></span>Great Hall</h2>
+                </div>
+                <div class="clear"></div>
 
             </div>
             </section>
         </main>
 
 
-                <a href="music.html" data-transition='slidefade'><img id="start" src="images/musicButton.png" width="50%" height="50%"/></a>                
+
+<!--//////////////////////////// FOOTER //////////////////////////////-->
+        <footer id="bottomNav">
+
+<a><div class="home"><img src="images/navBDP_active.png" width="100%" alt="Nav Home" /></div></a>
+<a><div class="music"><img src="images/navMusic.png" width="100%" alt="Nav Home" /></div></a>
+<a><div class="comedy"><img src="images/navComedy.png" width="100%" alt="Nav Home" /></div></a>
+<a><div class="films"><img src="images/navFilms.png" width="100%" alt="Nav Home" /></div></a>
+
+        </footer>
+
 
             </div>
         </section>
