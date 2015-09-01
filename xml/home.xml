@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+
+	<directories>
+		<imagePath>images/</imagePath>
+	</directories>
+	
+	<images>
+		<fma>
+			<fmaPhoto>eventPicLarge.jpg</fmaPhoto>
+		</fma>
+		<feedOne>
+			<poster>eventPic.jpg</poster>
+		</feedOne>
+	</images>	
+	
+	<fma>
+		<fmaTitle>Event Title</fmaTitle>
+		<fmaType>Event Type</fmaType>
+		<fmaDay>Event Day</fmaDay>
+		<fmaDate>Event Date</fmaDate>
+		<fmaLoc>Event Location</fmaLoc>
+	</fma>
+	
+	<info>
+		<feedOne>
+			<title>Event Title</title>
+			<type>Event Type</type>
+			<day>Event Day</day>
+			<date>Event Date</date>
+			<loc>Event Location</loc>
+		</feedOne>
+
+
+	</info>
+
+</data>
